@@ -55,7 +55,7 @@ The accuracy on the new images is 60%, which is relatively lower than the accura
 <p float="left">
   <img src="/Results/top5_softmax_prob.png" width="800" title="Fig. 5 top five softmax probabilities"/>
 </p>
-As can be seen from the table above, for the correctly classified signs, the model is very certain of its prediction. For misclassified signs, the model is less certain.   
+As can be seen from the table above, for the correctly classified signs, the model is very certain of its prediction. For misclassified signs, the model is less certain.  
 
 In addition, I visualize the feature maps of the first convolutional layer (conv1) and second convolutional layer (conv2) when input the image 1.  
 
