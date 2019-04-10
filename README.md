@@ -30,8 +30,11 @@ I deploy the classic LeNet structure for this project. It is comprised of five l
   <img src="/Results/network_structure.png" width="800" title="Fig. 2 network structure"/>
 </p>
 
-#### Model Training
+#### Model Training and Solution Approach
 
-#### Solution Approach
+I have tried network training with different hyperparameters. The figure below shows accuracy performance on the validation set:
+<p float="left">
+  <img src="/Results/performance_comp.jpg" width="600" title="Fig. 3 model performance"/>
+</p>
 
 ### 3. Model Test on New Images
