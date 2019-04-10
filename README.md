@@ -19,9 +19,16 @@ The designed model is trained and evaluated on a German traffic sign dataset. It
 
 #### Preprocessing
 
+For model training and test on the given data, no extra preprocessing is employed. For model test on the new images found on the web, the images are processed through the following pipeline:
+
+Convertion (Image.convert() returns a Image object) --> Resize (Image.resize() and Numpy.reshape () to make the image fit the input of trained network) 
+
 #### Model Architecture
+
+
 
 #### Model Training
 
 #### Solution Approach
 
+### 3. Model Test on New Images
