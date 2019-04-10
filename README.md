@@ -67,7 +67,8 @@ Feature maps of conv2:
 <p float="left">
   <img src="/Results/conv2.png" width="800" title="Fig. 7 feature maps of conv2"/>
 </p>  
-As seen in the feature maps of conv1, the feature maps react with high activation to the sign's boundary outline and to the contrast in the sign's painted symbol. The feature maps of conv2 are harder to interpret.
+As seen in the feature maps of conv1, the feature maps react with high activation to the sign's boundary outline and to the contrast in the sign's painted symbol. The feature maps of conv2 are harder to interpret.  
+
 ### 4. Discussion
 
 When tested on other new images (in total I tested 20 images, the accuracy is around 50%), the model accuracy is still not as high as that (94.5%) on the given test data. I attribute this accuracy loss to insufficient rotation and tilt variations in the training data. I have two thoughts to tackle this issue. First, add more rotation and tilt to augment the training data. Second, transform the extracted sign area into "bird's-eye view" through perspective transformation to get rid of the impact due to rotation and tilt in the captured sign images.
