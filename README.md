@@ -36,11 +36,16 @@ I have tried network training with different hyperparameters. The figure below s
 <p float="left">
   <img src="/Results/performance_comp.jpg" width="800" title="Fig. 3 model performance"/>
 </p>
-where "lr" means "learning rate". I have tested with different dropout rates while 0.75 gives me the best performance. To accelerate convergence and stabilize training, I add batch normalization to the two convolutional layers. To avoid dead ReLU, I use ELU instead. These two techniques help to boost validation accuracy to 0.936, which outperforms than that of other configurations. The complete list of hyperparameters is as follows:
+where "lr" means "learning rate". I have tested with different dropout rates while 0.75 gives me the best performance. To accelerate convergence and stabilize training, I add batch normalization to the two convolutional layers. To avoid dead ReLU, I use ELU instead. These two techniques help to boost validation accuracy to 0.936, which outperforms than that of other configurations. The complete list of hyperparameters is as follows:  
 
 Batch size: 128  
 Epoch: 35  
 Learning rate: 1e-3  
 Optimizer: Adam Optimizer  
-
+  
 ### 3. Model Test on New Images
+
+I test the model on five images found on the web. The images, test results, and ground truth ("GT") are shown in the following figure:
+<p float="left">
+  <img src="/Results/test_images.png" width="800" title="Fig. 4 test images and results"/>
+</p>
