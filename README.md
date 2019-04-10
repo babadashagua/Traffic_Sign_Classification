@@ -15,4 +15,7 @@ The designed model is trained and evaluated on a German traffic sign dataset. It
   <img src="/Results/dataset_visual.png" width="400" title="Fig. 1 dataset visualization"/>
 </p>
 
+### 2. Design and Test a Model Architecture
+
+# Preprocessing: 
 
