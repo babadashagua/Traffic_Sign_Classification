@@ -55,9 +55,10 @@ The accuracy on the new images is 60%, which is relatively lower than the accura
 <p float="left">
   <img src="/Results/top5_softmax_prob.png" width="800" title="Fig. 5 top five softmax probabilities"/>
 </p>
-As can be seen from the table above, for the correctly classified signs, the model is very certain of its prediction. For misclassified signs, the model is less certain. 
+As can be seen from the table above, for the correctly classified signs, the model is very certain of its prediction. For misclassified signs, the model is less certain.   
 
 In addition, I visualize the feature maps of the first convolutional layer (conv1) and second convolutional layer (conv2) when input the image 1.  
+
 Feature maps of conv1:
 <p float="left">
   <img src="/Results/conv1.png" width="800" title="Fig. 6 feature maps of conv1"/>
@@ -67,6 +68,7 @@ Feature maps of conv2:
 <p float="left">
   <img src="/Results/conv2.png" width="800" title="Fig. 7 feature maps of conv2"/>
 </p>  
+
 As seen in the feature maps of conv1, the feature maps react with high activation to the sign's boundary outline and to the contrast in the sign's painted symbol. The feature maps of conv2 are harder to interpret.  
 
 ### 4. Discussion
