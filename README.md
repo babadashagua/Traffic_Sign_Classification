@@ -21,11 +21,14 @@ The designed model is trained and evaluated on a German traffic sign dataset. It
 
 For model training and test on the given data, no extra preprocessing is employed. For model test on the new images found on the web, the images are processed through the following pipeline:
 
-Convertion (Image.convert() returns a Image object) --> Resize (Image.resize() and Numpy.reshape () to make the image fit the input of trained network) 
+Convertion (Image.convert( ) returns a Image object) --> Resize (Image.resize( ) and Numpy.reshape ( ) to make the image fit the input of trained network) 
 
 #### Model Architecture
 
-
+I deploy the classic LeNet structure for this project. It is comprised of five layers: two convolutional layers and three fully connected layers. The network structure is summarized in the table below:
+<p float="left">
+  <img src="/Results/network_structure.png" width="400" title="Fig. 2 network structure"/>
+</p>
 
 #### Model Training
 
