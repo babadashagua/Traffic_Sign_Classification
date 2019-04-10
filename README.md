@@ -49,3 +49,9 @@ I test the model on five images found on the web. The images, test results, and 
 <p float="left">
   <img src="/Results/test_images.png" width="800" title="Fig. 4 test images and results"/>
 </p>
+As an observation, when the test images are similar to that in the training dataset (the sign occupies the major area of the image, such as image 1, 2, and 4), the probability of being correctly classified is high. When the sign occupies less area in the image, as shown in image 2 and 4, the probability of misclassification increases. The background information acts as noise and affects the classification. To boost the accuracy on new images, I think an object segmentation can be deployed first to extract the sign area, then the sign area is resized and sent to the classifier. 
+
+The accuracy on the new images is 60%, which is relatively lower than the accuracy of 94.5% on the given test data. The top five softmax probabilities on the new images are outputted, as shown below:
+<p float="left">
+  <img src="/Results/top5_softmax_prob.png" width="800" title="Fig. 5 top five softmax probabilities"/>
+</p>
