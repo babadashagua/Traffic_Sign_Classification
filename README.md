@@ -17,5 +17,5 @@ The designed model is trained and evaluated on a German traffic sign dataset. It
 
 ### 2. Design and Test a Model Architecture
 
-# Preprocessing: 
+#### Preprocessing: 
 
